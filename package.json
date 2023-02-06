@@ -1,13 +1,10 @@
 {
-  "name": "API melhores momentos",
+  "name": "APImelhoresmomentos",
   "version": "1.0.0",
   "private": true,
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
     "dev": "node ace serve --watch",
-    "build": "node ace build --production",
+    "build": "node ace build --output public",
     "start": "node server.js",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
